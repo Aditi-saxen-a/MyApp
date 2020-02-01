@@ -7,11 +7,17 @@ Thanks to this system that conducting elections would be fare and transparent.
 ### Prerequisites
 Advance Java,Java,Python,MySQL,Python API's(pip such as Pillow , ImageHash)
 
-Java: https://www.oracle.com/technetwork/java/javase/downloads/index.html
-Advance Java(Tomcat Server): http://tomcat.apache.org/
+Java: https://www.oracle.com/technetwork/java/javase/downloads/index.html     java higher than or same as java8 is suggested
+After installing jdk,we also have to set the path from the root to the bin folder of jdk in path variable of environment variables of Advanced system settings of This PC.
+
+Advance Java(Tomcat Server): http://tomcat.apache.org/     Tomcat9.0 is suggested
+We have to set path of servlet-api.jar and jsp-api.jar in the classpath variable of environment variables in Advanced system settings of This PC.
+
 Python :https://www.python.org/downloads/
 MySQL :https://www.mysql.com/downloads/
+paths of python and mysql set up automatically while their installation .We simply have to check the checkbox. 
 
+Our sample mysql database can be easily created by simply copying and pasting the querries as mentioned in mysqlquerries.txt which we have also included along with this project. 
 
 ## Operation Procedure
 
@@ -33,3 +39,4 @@ Please read        for details on our code of conduct, and the process for submi
 * Hat tip to anyone whose code was used
 * Inspiration
 * etc
+
